@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #e7e7e7;
+    color: #313131;
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+    /* font: normal 16px 'Roboto', sans-serif;*/
+
+
+}
+
+a {
+    color: royalblue;
+    text-decoration: none;
+    margin-left: 1px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.photo {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 18px rgba(0, 0, 0, 025);
+}
+
+.info p {
+    color: #7c7c7c;
+
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    margin: 15px 0px 20px 20px;
+}
+
+.one {
+    max-width: 750px;
+    margin: auto;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: -20px;
+    border-radius: 30px;
+}
+
+.bg-y {
+    background: #feffc1;
+}
+.bg-g {
+    background: #c0ffbe;
+}
+.bg-r {
+    background: #ffc0c0;
+}
+
+.job {
+    width: 100%;
+}
+
+.tds {
+    text-align: center;
+
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #ccc;
+    color: #000;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.knopka {
+    color: #000;
+    padding: 15px 20px;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+}
